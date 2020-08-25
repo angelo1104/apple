@@ -1,0 +1,86 @@
+.navbar.navbar-dark.navbar-expand-md.fixed-top.bg-dark {
+  background-color: black !important;
+  opacity: 0.8;
+}
+
+.products {
+  text-align: center;
+  /*padding-top: 30px;*/
+  padding: 3% 7% 50px;
+  height: 550px;
+}
+
+.products h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 56px;
+}
+
+.iphoneSE h2 {
+  text-align: center;
+}
+
+.dark {
+  color: #fff;
+}
+
+.products {
+  height: 650px;
+}
+
+.SE {
+  /*height: 425px;*/
+  background-color: #131313;
+  /*padding: 20px;*/
+}
+
+.products.iphoneSE.dark {
+  background-color: rgb(19,19,19);
+}
+
+body {
+  padding-top: 50px;
+}
+
+.se-h2 {
+  font-weight: 400;
+}
+
+.learn-more-link {
+  margin-right: 20px;
+}
+
+.linker a {
+  font-size: 25px;
+}
+
+.linker {
+  margin-bottom: 30px;
+}
+
+.trade-in {
+  color: grey;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.img-fluid.figure-img.iphone-se-image {
+  width: 800px;
+  height: 250px;
+  border: none;
+}
+
+.figure {
+  border: none;
+}
+
+img {
+  width: 900px;
+  height: 350px;
+  /*border-color: #131313;*/
+  /*outline: none;*/
+  /*border: nom;*/
+  /*border: nono;*/
+  border: none;
+}
+
