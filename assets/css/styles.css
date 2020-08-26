@@ -5,9 +5,9 @@
 
 .products {
   text-align: center;
-  /*padding-top: 30px;*/
   padding: 3% 7% 50px;
   height: 550px;
+  margin-bottom: 20px;
 }
 
 .products h1 {
@@ -131,4 +131,18 @@ img {
 
 .hide{
   display: none;
+}
+
+.ipad{
+  margin: 0 15% 0 30%;
+}
+
+.ipad-pro{
+  height: 550px;
+}
+
+@media only screen and (min-width:450px) {
+  .ipad h1{
+    font-size: 20px;
+  }
 }
