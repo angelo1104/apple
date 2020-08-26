@@ -146,3 +146,11 @@ img {
     font-size: 20px;
   }
 }
+
+.se-image{
+  height: 100px;
+}
+
+.iphoneSE-image{
+  height: 300px;
+}

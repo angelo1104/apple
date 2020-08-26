@@ -44,6 +44,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Anupam Karn\Desktop\apple\assets\img" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,7 +59,7 @@
       <updated>1598364248034</updated>
       <workItem from="1598364279533" duration="1236000" />
       <workItem from="1598414992278" duration="5527000" />
-      <workItem from="1598443804220" duration="366000" />
+      <workItem from="1598443804220" duration="987000" />
     </task>
     <servers />
   </component>
