@@ -84,3 +84,51 @@ img {
   border: none;
 }
 
+@media only screen and (max-width:450px){
+  .iphoneSE-image{
+    width: 300px;
+    height: 300px;
+  }
+
+  .SE h1{
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .SE h2{
+    font-size: 25px;
+  }
+
+  .SE a{
+    font-size: 20px;
+  }
+
+  .fix-it-felix{
+    background-color: #fafafa;
+  }
+
+  .iphone11{
+    background: none;
+  }
+
+  .products{
+    height: 550px;
+  }
+}
+
+.iphone11{
+  padding: 0;
+}
+
+.iphone-h2{
+  font-size: 25px;
+}
+
+.iphone-h1{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.hide{
+  display: none;
+}
