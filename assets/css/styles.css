@@ -134,7 +134,7 @@ img {
 }
 
 .ipad{
-  margin: 0 15% 0 30%;
+  margin: 0 15% 0 20%;
 }
 
 .ipad-pro{
@@ -153,4 +153,29 @@ img {
 
 .iphoneSE-image{
   height: 250px;
+}
+
+#small-products-wrapper{
+  width: 100%;
+  margin: 0;
+}
+
+.small-products{
+  text-align: center;
+  height: 580px;
+  width: 95%;
+  border: 5px solid white;
+}
+
+.college-img{
+  width: 100%;
+}
+
+.college{
+  background-color: #F0F0F2;
+  padding: 45px;
+}
+
+.apple-tv{
+  background-image: linear-gradient(#8DC3DB,#A0CEE2);
 }
