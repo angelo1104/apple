@@ -28,8 +28,10 @@
     <link rel="stylesheet" href="assets/css/Navbar---Apple.css"/>
     <link rel="stylesheet" href="assets/css/styles.css"/>
     <link rel="icon" type="image/png" href="apple.png"/>
-    <link href="//db.onlinewebfonts.com/c/0b51833ff62e4af8acb5fd3e2bf59e97?family=SF+Pro+Display" rel="stylesheet" type="text/css"/>
-    <link href="//db.onlinewebfonts.com/c/3cff9206b4c8d578245ef1aaeeaf9e84?family=SF+Pro+Display" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/0b51833ff62e4af8acb5fd3e2bf59e97?family=SF+Pro+Display" rel="stylesheet"
+          type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/3cff9206b4c8d578245ef1aaeeaf9e84?family=SF+Pro+Display" rel="stylesheet"
+          type="text/css"/>
 
 </head>
 
@@ -149,7 +151,7 @@
             <h2 class="ipad-h2">Your next computer is not a computer.</h2>
             <div class="linker">
                 <a class="learn-more-link" href="#">Learn More&nbsp;<i
-                    class="fa fa-angle-right"></i>
+                        class="fa fa-angle-right"></i>
                 </a>
                 <a href="#">Buy&nbsp;<i class="fa fa-angle-right"></i></a>
             </div>
@@ -160,16 +162,17 @@
 <section id="small-products-wrapper" class="row">
     <section class="small-products col-md-6 col-sm-12 college">
         <div class="unit-wrapper">
-            <h1 >Buy a Mac or iPad for <br>college. Get Airpods.</h1>
+            <h1>Buy a Mac or iPad for <br class="small-hide">college. Get Airpods.</h1>
             <a href="#">Shop&nbsp;<i class="fa fa-angle-right"></i></a>
         </div>
-        <div class="image-wrapper">
+        <div class="image-wrapper image-wrapper-college">
             <picture>
-                <img class="college-img" src="assets/img/college-mac.png" alt="mac for college image">
+                <source media="(min-width: 1200px)" srcset="assets/img/college-mac.png">
+                <img class="college-img" src="assets/img/bac-toschool-small.jpg" alt="mac for college image">
             </picture>
         </div>
     </section>
-    <section class="small-products col-md-6 col-sm-12 airpods" >
+    <section class="small-products col-md-6 col-sm-12 airpods">
         <div class="unit-wrapper">
             <h1>Make them yours.</h1>
             <h4 class="personalize-airpods">Personalize your AirPods with <br>free engraving. Only at Apple.</h4>
@@ -180,25 +183,29 @@
         </div>
         <div class="image-wrapper">
             <picture>
-                <img class="college-img" src="assets/img/airpods-apple.png" alt="mac for college image">
+                <source media="(min-width: 1200px)" srcset="assets/img/airpods-apple.png">
+                <img class="college-img" src="assets/img/airpods-small.jpg" alt="mac for college image">
             </picture>
         </div>
     </section>
-    <section class="small-products col-md-6 col-sm-12 airpods" >
+    <section class="small-products col-md-6 col-sm-12 airpods">
         <div class="unit-wrapper apple-card">
-            <h1>Apple Card <br>Monthly Installments.</h1>
-            <h5 class="personalize-airpods">Pay for your new Apple products over-time, <br>interest-free with Apple-Card.</h5>
+            <h1 class="apple-card-h1">Apple Card <br>Monthly Installments.</h1>
+            <h5 class="personalize-airpods">Pay for your new Apple products over-time, <br>interest-free with
+                Apple-Card.</h5>
             <a class="learn-more-link" href="#">Learn More&nbsp;<i
                     class="fa fa-angle-right"></i>
             </a>
         </div>
         <div class="image-wrapper">
             <picture>
-                <img class="college-img" src="assets/img/apple-card.png" alt="mac for college image">
+                <source media="(min-width: 1200px)" srcset="assets/img/apple-card.png">
+                <img class="apple-card-img" src="assets/img/apple-card-small.jpg" alt="mac for college image">
             </picture>
         </div>
     </section>
-    <section class="small-products col-md-6 col-sm-12 apple-tv" >
+    <section class="small-products col-md-6 col-sm-12 apple-tv dark"
+             style="background: url('assets/img/new-apple-tv-medium.jpg') center / cover no-repeat">
         <div class="unit-wrapper">
             <h4><i class="fab fa-apple"></i>tv+</h4>
             <div>
@@ -207,47 +214,61 @@
         </div>
         <div class="image-wrapper">
             <picture>
-                <img class="college-img" src="assets/img/apple-tv-boystate.jpg" alt="mac for college image">
+                <img class="apple-tv-img-logo" src="assets/img/Apple%20TV%20Movie.png" alt="mac for college image">
             </picture>
         </div>
     </section>
-</section>
+    <!--</section>-->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/Navbar---Apple.js"></script>
-<script src="assets/js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/Navbar---Apple.js"></script>
+    <script src="assets/js/index.js"></script>
+</section>
 </body>
 
 <style>
 
-    .apple-card h5{
+    .apple-card-img {
+        width: 100%;
+    }
+
+    .apple-card h5 {
         font-size: 19px;
         line-height: 1.21053;
         font-weight: 400;
         letter-spacing: .012em;
-        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     }
-    .personalize-airpods{
+
+    .apple-card h1.apple-card-h1 {
+        font-size: 45px;
+        font-weight: 400;
+    }
+
+    .personalize-airpods {
         font-weight: 300;
     }
 
-    .airpods{
+    .airpods {
         background-color: #fbfbfd;
         padding: 45px;
     }
 
-    .unit-wrapper h1{
-        font-size: 32px;
+    .apple-tv-img-logo{
+        width:80%;
+    }
+
+    .unit-wrapper h1 {
+        font-size: 40px;
         line-height: 1.125;
         font-weight: 600;
         letter-spacing: .002em;
-        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
     }
 
-    .unit-wrapper a{
+    .unit-wrapper a {
         font-size: 20px;
     }
+
     .ipad-pro {
         padding-left: 2%;
         background: url(assets/img/ipad.jpg) center / contain no-repeat;
@@ -275,6 +296,17 @@
     }
 
     @media only screen and (max-width: 450px) {
+
+        .apple-card-img {
+            margin-bottom: 20px;
+            width: 100%;
+            height: 300px;
+        }
+
+        .airpods .unit-wrapper {
+            margin-bottom: 30px;
+        }
+
         .iphone-h1.jp {
             font-size: 30px;
             font-weight: 600;
@@ -283,6 +315,10 @@
         .iphone-h2 {
             font-weight: 400;
             font-size: 20px;
+        }
+
+        .college-img {
+            height: 300px;
         }
 
         .linksIphone {
@@ -304,6 +340,30 @@
         .ipad-pro {
             background: url(assets/img/ipad.jpg) center / contain no-repeat;
             background-color: #fafafa;
+        }
+
+        .college {
+            border: none;
+            margin-left: 0;
+            margin-right: 0;
+            width: 500px;
+        }
+
+        .airpods {
+            border: none;
+            margin: 0;
+            width: 500px;
+        }
+
+        .small-products {
+            border: none;
+            margin: 0 0 20px;
+            width: 500px;
+        }
+
+        .apple-tv {
+            border: none;
+            margin: 0;
         }
     }
 
