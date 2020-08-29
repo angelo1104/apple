@@ -20,11 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c2cbc6-50f5-4869-833d-77e3df33fdcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Apple TV Movie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/apple-tv-logo-movie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/college-pad-get-stairpods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/letter-better.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/little-voice-apple-tv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/wapple.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/college-mac.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/college-mac.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +74,7 @@
       <workItem from="1598414992278" duration="5527000" />
       <workItem from="1598443804220" duration="8445000" />
       <workItem from="1598582073206" duration="8321000" />
+      <workItem from="1598617261897" duration="11251000" />
     </task>
     <servers />
   </component>

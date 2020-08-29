@@ -1,191 +1,261 @@
 .navbar.navbar-dark.navbar-expand-md.fixed-top.bg-dark {
-  background-color: black !important;
-  opacity: 0.8;
+    background-color: black !important;
+    opacity: 0.8;
 }
 
 .products {
-  text-align: center;
-  padding: 3% 7% 50px;
-  height: 550px;
-  margin-bottom: 20px;
+    text-align: center;
+    padding: 3% 7% 50px;
+    height: 550px;
+    margin-bottom: 20px;
 }
 
 .products h1 {
-  text-align: center;
-  font-weight: bold;
-  font-size: 56px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 56px;
 }
 
 .iphoneSE h2 {
-  text-align: center;
+    text-align: center;
 }
 
 .dark {
-  color: #fff;
+    color: #fff;
 }
 
 .products {
-  height: 650px;
+    height: 650px;
 }
 
 .SE {
-  /*height: 425px;*/
-  background-color: #131313;
-  /*padding: 20px;*/
+    /*height: 425px;*/
+    background-color: #131313;
+    /*padding: 20px;*/
 }
 
 .products.iphoneSE.dark {
-  background-color: rgb(19,19,19);
+    background-color: rgb(19, 19, 19);
 }
 
 body {
-  padding-top: 50px;
+    padding-top: 50px;
 }
 
 .se-h2 {
-  font-weight: 400;
+    font-weight: 400;
 }
 
 .learn-more-link {
-  margin-right: 20px;
+    margin-right: 20px;
 }
 
 .linker a {
-  font-size: 25px;
+    font-size: 25px;
 }
 
 .linker {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .trade-in {
-  color: grey;
-  font-weight: 300;
-  font-size: 20px;
+    color: grey;
+    font-weight: 300;
+    font-size: 20px;
 }
 
 .img-fluid.figure-img.iphone-se-image {
-  width: 800px;
-  height: 250px;
-  border: none;
+    width: 800px;
+    height: 250px;
+    border: none;
 }
 
 .figure {
-  border: none;
+    border: none;
 }
 
 img {
-  width: 900px;
-  height: 350px;
-  /*border-color: #131313;*/
-  /*outline: none;*/
-  /*border: nom;*/
-  /*border: nono;*/
-  border: none;
+    width: 900px;
+    height: 350px;
+    border: none;
 }
 
-@media only screen and (max-width:450px){
-  .iphoneSE-image{
-    width: 60%;
-    height: 100%;
-  }
+@media only screen and (max-width: 450px) {
+    .iphoneSE-image {
+        width: 60%;
+        height: 100%;
+    }
 
-  .SE h1{
-    font-size: 40px;
-    font-weight: 600;
-  }
+    .SE h1 {
+        font-size: 40px;
+        font-weight: 600;
+    }
 
-  .SE h2{
+    .SE h2 {
+        font-size: 25px;
+    }
+
+    .SE a {
+        font-size: 20px;
+    }
+
+    .fix-it-felix {
+        background-color: #fafafa;
+    }
+
+    .iphone11 {
+        background: none;
+    }
+
+    .products {
+        height: 550px;
+    }
+}
+
+.iphone11 {
+    padding: 0;
+}
+
+.iphone-h2 {
     font-size: 25px;
-  }
+}
 
-  .SE a{
-    font-size: 20px;
-  }
+.iphone-h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
 
-  .fix-it-felix{
-    background-color: #fafafa;
-  }
+.hide {
+    display: none;
+}
 
-  .iphone11{
-    background: none;
-  }
+.ipad {
+    margin: 0 15% 0 20%;
+}
 
-  .products{
+.ipad-pro {
     height: 550px;
-  }
 }
 
-.iphone11{
-  padding: 0;
+@media only screen and (min-width: 450px) {
+    .ipad h1 {
+        font-size: 20px;
+    }
 }
 
-.iphone-h2{
-  font-size: 25px;
+.se-image {
+    height: 100px;
 }
 
-.iphone-h1{
-  font-size: 60px;
-  font-weight: bold;
+.iphoneSE-image {
+    height: 250px;
 }
 
-.hide{
-  display: none;
+#small-products-wrapper {
+    width: 100%;
+    margin: 0;
 }
 
-.ipad{
-  margin: 0 15% 0 20%;
+.small-products {
+    text-align: center;
+    height: 580px;
+    width: 95%;
+    border: 8px solid white;
+    margin:0;
 }
 
-.ipad-pro{
-  height: 550px;
+.college-img {
+    width: 100%;
 }
 
-@media only screen and (min-width:450px) {
-  .ipad h1{
-    font-size: 20px;
-  }
-}
-
-.se-image{
-  height: 100px;
-}
-
-.iphoneSE-image{
-  height: 250px;
-}
-
-#small-products-wrapper{
-  width: 100%;
-  margin: 0;
-}
-
-.small-products{
-  text-align: center;
-  height: 580px;
-  width: 95%;
-  border: 5px solid white;
-}
-
-.college-img{
-  width: 100%;
-}
-
-.college{
-  background-color: #F0F0F2;
-  padding: 45px;
+.college {
+    background-color: #F0F0F2;
+    padding: 45px;
 }
 
 @media screen and (max-width: 450px) {
-  .small-hide{
-    display: none;
-  }
-  .image-wrapper-college{
-    margin-bottom: 40px;
-  }
-  .college-img{
-    height: 100%;
-  }
+    .small-hide {
+        display: none;
+    }
+
+    .image-wrapper-college {
+        margin-bottom: 40px;
+    }
+
+    .college-img {
+        height: 100%;
+    }
 
 }
+
+
+.apple-tv-wrapper h4 {
+    font-size: 35px;
+    margin-top: 32px;
+    margin-bottom: 200px;
+}
+
+
+.logo-image-tv-plus-little-voice-logo {
+    width: 300px;
+    max-width: 330px;
+    height: 100px;
+    color: #f5f5f7;
+    background-size: 300px 80px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/home/l/images/logos/tv-plus-little-voice/logo__dcojfwkzna2q_medium.png");
+    margin-left: 200px;
+}
+
+.visuallyhidden {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+}
+
+#apple-tv-col.small-products {
+    flex-grow: 100;
+}
+
+span.artist-dot{
+    font-size: 25px;
+    position:relative;
+    bottom: 6.25px;
+}
+
+#apple-tv-col div h5{
+    font-size: 22px;
+    line-height: 1.25;
+    opacity:1;
+}
+
+a.watch-session{
+    color: #0056B3;
+}
+
+a.watch-session:hover{
+    color: #0056B3;
+    text-decoration: underline;
+}
+
+*{
+    cursor: pointer;
+}
+
+.apple-watch .unit-wrapper h5{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.apple-watch .image-wrapper picture img{
+    width:100%;
+    height: 100%;
+}
+
 
