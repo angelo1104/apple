@@ -38,9 +38,22 @@ $("#apple-letter").click(function(){
     window.location.href = "https://www.apple.com/store-opening-letter/"
 })
 
+let isCollapsedNavBar = true;
+
 window.onload= ()=>{
     document.querySelector("#apple-pay-parks").addEventListener("click",function(){
         window.location.href = "https://www.apple.com/apple-pay/"
     })
+
+    $("#hamburger-icon").click(function(){
+        if(isCollapsedNavBar === true){
+            $("#hamburger-icon").attr("class","fas fa-times");
+            isCollapsedNavBar = false;
+        }else{
+            $("#hamburger-icon").attr("class","fas fa-bars");
+            isCollapsedNavBar = true;
+        }
+    })
+    
 }
 
