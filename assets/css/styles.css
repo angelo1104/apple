@@ -283,6 +283,18 @@ a.watch-session:hover{
     cursor: pointer;
 }
 
+footer.page-footer{
+    cursor: text;
+}
+
+footer.page-footer *{
+    cursor: text;
+}
+
+footer.page-footer a{
+    cursor: pointer;
+}
+
 .apple-watch .unit-wrapper h5{
     font-size: 15px;
     letter-spacing: 1px;
