@@ -1,3 +1,7 @@
+:root{
+    --tv-margin: 80px;
+}
+
 .navbar.navbar-dark.navbar-expand-md.fixed-top.bg-dark {
     background-color: black !important;
     opacity: 0.8;
@@ -207,6 +211,7 @@ img {
     margin-left: 200px;
 }
 
+
 .visuallyhidden {
     position: absolute;
     clip: rect(1px, 1px, 1px, 1px);
@@ -235,6 +240,36 @@ span.artist-dot{
     opacity:1;
 }
 
+@media only screen and (max-width:450px){
+    #apple-tv-col div h5{
+        width: 280px;
+    }
+
+    .logo-image-tv-plus-little-voice-logo{
+        background-image: url("https://www.apple.com/v/home/l/images/logos/tv-plus-little-voice/logo__dcojfwkzna2q_small.png");
+        background-size: 280px 63px;
+        max-width: 280px;
+        height: 63px;
+        margin: auto auto;
+        position: relative;
+        top: var(--tv-margin);
+    }
+
+    #apple-tv-col div h2{
+        position: relative;
+        top: 90px;
+    }
+
+    #apple-tv-col div a{
+        position: relative;
+        top: 90px;
+    }
+
+    #apple-tv-col div h4{
+       margin-top: 80px;
+    }
+}
+
 a.watch-session{
     color: #0056B3;
 }
@@ -258,4 +293,52 @@ a.watch-session:hover{
     height: 100%;
 }
 
+
+img.apple-pay{
+    height: 63px;
+    width: 300px;
+}
+
+.apple-pay-h2{
+    font-size: 25px;
+    margin: 30px auto;
+}
+
+.products.apple-pay-prod{
+    background-color: #FBFBFD;
+    height: 350px;
+}
+
+@media only screen and (max-width:450px){
+    .products.apple-pay-prod{
+        height: 500px;
+    }
+
+    .apple-pay{
+        margin-top: 30px;
+    }
+    
+}
+
+.states{
+    width: 20px;
+    height:20px;
+    border-radius: 100%;
+}
+
+
+.footer-ul{
+    font-size: 12px;
+    color: grey;
+}
+
+@media only screen and (min-width:1200px){
+    .footer-ul{
+        padding: 0 50px;
+    }
+
+    hr{
+        width:90%;
+    }
+}
 
